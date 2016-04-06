@@ -16,7 +16,10 @@ public class Puente {
     Semaphore semaforo1;
     Semaphore semaforo2;
     Semaphore init;
-    
+    /*
+        Luisa yo pensaria que deberia haber una variable por cada lado que contengan la cantidad de carros que tiene.
+	    ademas deberia haber una especie de semoforo mutex para que de el permiso de usar dicha variable
+	        */
     public void Puente(){
         cantidad=10;
         semaforo1= new Semaphore(1, true);

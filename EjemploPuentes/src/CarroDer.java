@@ -11,7 +11,9 @@
 public class CarroDer {
     
     
-    
+/*
+Esta clase deberia extender de thread porque va ser un proceso que se corra en un hilo
+*/
     
     Puente puente;
     
